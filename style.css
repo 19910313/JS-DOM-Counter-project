@@ -1,0 +1,45 @@
+body {
+  background: gray;
+}
+
+.container {
+  height: 100px;
+  width: 200px;
+  background: #037c8c;
+  padding: 0 60px 0 50px;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#button1 {
+  background: white;
+  border: none;
+  padding: 0 10px 0 10px;
+  font-size: 25px;
+  color: #037c8c;
+  position: relative;
+  top: 40px;
+  left: -15px;
+  transform: translate(-55%, -10%);
+}
+
+#button2 {
+  background: white;
+  border: none;
+  padding: 0 10px 0 10px;
+  font-size: 25px;
+  color: #037c8c;
+  position: relative;
+  top: 40px;
+  left: -10px;
+  transform: translate(-55%, -10%);
+}
+#label {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  position: relative;
+  top: -5px;
+  left: 48px;
+}
